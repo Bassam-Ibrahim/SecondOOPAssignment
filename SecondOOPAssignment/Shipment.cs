@@ -47,7 +47,7 @@ namespace SecondOOPAssignment
                     DeliveryFee = value;
             }
         }
-        public decimal EstimatedDeliveryTCost
+        public virtual decimal EstimatedDeliveryTCost
         {
             get { return DeliveryFee + ((decimal)Weight * 5); }
 
@@ -75,7 +75,7 @@ namespace SecondOOPAssignment
             if (updatedFee >= 0)
                 DeliveryFee = updatedFee;
         }
-        public void printShipmentDetails()
+        public virtual void printShipmentDetails()
         {
             Console.WriteLine($"Tracking Code: {TrackingCode}");
             Console.WriteLine($"Description: {Description}");

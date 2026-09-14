@@ -1,4 +1,6 @@
-﻿class Program
+﻿using SecondOOPAssignment;
+
+class Program
 {
 
     public static void Main(string[] args)
@@ -16,6 +18,7 @@
           d)  the child class can uses the members of parent class it will make the code more Maintainable and easier to manage
          */
         #endregion
+      
 
     }
 }
