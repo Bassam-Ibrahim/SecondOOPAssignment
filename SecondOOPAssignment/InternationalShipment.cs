@@ -66,8 +66,7 @@ public class InternationalShipment : Shipment
         Console.WriteLine($"Description        : {description}");
         Console.WriteLine($"Weight             : {weight} KG");
         Console.WriteLine($"Delivery Fee       : {deliveryFee} EGP");
-        Console.WriteLine($"Destination        : {Destination}");
-        Console.WriteLine($"Destination Country: {DestinationCountry}");
+        Console.WriteLine($"Destination: {Destination.GetFullAddress()}"); Console.WriteLine($"Destination Country: {DestinationCountry}");
         Console.WriteLine($"Customs Fee        : {CustomsFee} EGP");
         Console.WriteLine($"Estimated Cost     : {EstimatedDeliveryTCost} EGP");
     }

@@ -21,6 +21,7 @@ namespace SecondOOPAssignment
             return $"{city}, {street}, {BuildingNumber}";
 
         }
+       
     }
 }
     #endregion

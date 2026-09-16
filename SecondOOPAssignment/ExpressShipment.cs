@@ -52,8 +52,7 @@ namespace SecondOOPAssignment
             Console.WriteLine($"Weight        : {weight} KG");
             Console.WriteLine($"Delivery Fee  : {deliveryFee} EGP");
             Console.WriteLine($"Extra Fee     : {ExtraFee} EGP");
-            Console.WriteLine($"Destination   : {Destination}");
-            Console.WriteLine(
+            Console.WriteLine($"Destination: {Destination.GetFullAddress()}"); Console.WriteLine(
                 $"Estimated Cost: {EstimatedDeliveryTCost} EGP");
         }
     }
